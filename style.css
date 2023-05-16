@@ -1,0 +1,38 @@
+body
+{
+    box-sizing: border-box;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    background-color: #02010a;
+}
+nav
+{
+    border-bottom: 0.6px solid #f1f1f12d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 55px;
+}
+nav .logo
+{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+nav .logo span
+{
+    font-style: italic;
+    font-weight: normal;
+}
+nav .link a
+{
+    color: #f1f1f1;
+    margin: 10px;
+    text-decoration: none;
+    transition: all 0.6s ease-in 0s;
+}
+nav .link a:hover
+{
+    color: #ff6347;
+}
